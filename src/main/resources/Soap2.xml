@@ -1,0 +1,190 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <m:GetOrderStatusResult xmlns:m="urn:connect.hireright.com/model">
+         <m:Order xmlns:hr="http://ns.hr-xml.org/2006-02-28" xmlns:hr_int="http://ns.hr-xml.org" xmlns:objs="urn:enterprise.soap.hireright.com/report">
+            <m:RegId>HA-111121-EP4JZ</m:RegId>
+            <m:Status>Completed</m:Status>
+            <m:CompanyLogin>UHG013</m:CompanyLogin>
+            <m:CompanyName>United HealthCare Services, Inc.</m:CompanyName>
+            <m:RawData>
+               <BackgroundReports xmlns="http://ns.hr-xml.org/2006-02-28">
+                  <ProviderReferenceId>
+                     <IdValue name="order#">HA-111121-EP4JZ</IdValue>
+                     <IdValue name="form#">FRM-102821-48G83QK</IdValue>
+                     <IdValue name="accountName">United HealthCare Services, Inc.</IdValue>
+                     <IdValue name="companyLogin">UHG013</IdValue>
+                  </ProviderReferenceId>
+                  <BackgroundReportPackage type="status">
+                     <ClientReferenceId>
+                        <IdValue name="correlationID">B179696:BI21102214000038271006</IdValue>
+                     </ClientReferenceId>
+                     <PackageId>
+                        <IdValue>622479</IdValue>
+                     </PackageId>
+                     <PackageName>
+                        <IdValue>Pkg 049: TB + Titers</IdValue>
+                     </PackageName>
+                     <SupportingDocumentation>
+                        <Documentation>
+                           <InternetWebAddress>https://ows01.hireright.com/sso/status?order=HA-111121-EP4JZ&amp;company=UHG013&amp;domain=WS_UHG</InternetWebAddress>
+                        </Documentation>
+                     </SupportingDocumentation>
+                     <ScreeningStatus>
+                        <OrderStatus>Completed</OrderStatus>
+                        <ResultStatus>Pass</ResultStatus>
+                        <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                        <AdditionalItems type="x:DateOrderCompleted">
+                           <Text>2021-12-11T13:20:08</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:OrderStatus">
+                           <Text>Completed</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:Timestamp">
+                           <Text>2022-01-11T07:16:29-08:00</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:Adjudication">
+                           <Text>Client Review Required</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:AdjudicationReason">
+                           <Text/>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:DateAdjudicated">
+                           <Text/>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:PercentComplete">
+                           <Text>100%</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:Screenings">
+                           <Text>6</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:Discrepancies">
+                           <Text>0</Text>
+                        </AdditionalItems>
+                        <AdditionalItems type="x:TransactionCost">
+                           <Text>177.83</Text>
+                        </AdditionalItems>
+                     </ScreeningStatus>
+                     <Screenings>
+                        <Screening qualifier="x:Managed Adjudication 3.0" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-XZ-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Review</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>Complete</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Client Review Required</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-12-13T05:37:31</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                        <Screening qualifier="x:MMR Titer" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-M2-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Pass</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>Immunity Confirmed</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Meets Company Standards</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-12-10T14:58:28</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                        <Screening qualifier="x:Varicella Titer" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-VT-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Pass</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>Immunity Confirmed</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Meets Company Standards</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-12-10T18:18:30</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                        <Screening qualifier="x:QUANTIFERON" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-TY-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Pass</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>No Evidence of TB</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Meets Company Standards</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-12-11T13:20:06</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                        <Screening qualifier="x:HepB Titer" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-HP-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Pass</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>Immunity Confirmed</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Meets Company Standards</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-12-10T14:49:43</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                        <Screening qualifier="x:Forms and Questionnaires" type="other">
+                           <ProviderReferenceId>
+                              <IdValue>HA-111121-EP4JZ-FQ-001</IdValue>
+                           </ProviderReferenceId>
+                           <ScreeningStatus>
+                              <OrderStatus>Completed</OrderStatus>
+                              <ResultStatus>Review</ResultStatus>
+                              <DateOrderReceived>2021-11-11T03:54:03</DateOrderReceived>
+                              <AdditionalItems type="x:ResultStatus">
+                                 <Text>COVID Not Started</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:Adjudication">
+                                 <Text>Client Review Required</Text>
+                              </AdditionalItems>
+                              <AdditionalItems type="x:DateOrderCompleted">
+                                 <Text>2021-11-11T03:54:04</Text>
+                              </AdditionalItems>
+                           </ScreeningStatus>
+                        </Screening>
+                     </Screenings>
+                  </BackgroundReportPackage>
+               </BackgroundReports>
+            </m:RawData>
+         </m:Order>
+      </m:GetOrderStatusResult>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

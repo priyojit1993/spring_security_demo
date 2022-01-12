@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<GetOrderStatus xmlns="urn:connect.hireright.com/model">
+			<AccountId>WS_UHG</AccountId>
+			<CompanyLogin>UHG013</CompanyLogin>
+			<UserRefId>jason.wu@optum.com</UserRefId>
+			<RegId>HA-111121-EP4JZ</RegId>
+		</GetOrderStatus>
+	</soapenv:Body>
+</soapenv:Envelope>

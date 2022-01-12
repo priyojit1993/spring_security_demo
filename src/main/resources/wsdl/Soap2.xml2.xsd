@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Envelope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="Header"/>
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="mod:GetOrderStatusResult" xmlns:mod="urn:connect.hireright.com/model"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

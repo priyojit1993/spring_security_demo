@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:connect.hireright.com/model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetOrderStatusResult">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Order">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="RegId"/>
+              <xs:element type="xs:string" name="Status"/>
+              <xs:element type="xs:string" name="CompanyLogin"/>
+              <xs:element type="xs:string" name="CompanyName"/>
+              <xs:element name="RawData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="ns:BackgroundReports" xmlns:ns="http://ns.hr-xml.org/2006-02-28"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
